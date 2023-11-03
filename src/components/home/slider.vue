@@ -18,26 +18,19 @@
 							<router-link
 								v-if="slide.e_service_id !== null"
 								:to="{ name: 'EService', params: { id: slide.e_service_id || 0 } }"
-								:style="'background-color:' + slide.button_color"
-								class="block px-3 py-3 w-32 rounded-full text-sm text-white text-center my-1 mx-auto"
+								class="theme-gradient block px-3 py-3 w-32 rounded-full text-sm text-white text-center my-1 mx-auto"
 								>{{ this.$filters.transString(slide.button) }}</router-link
 							>
 							<router-link
 								v-else-if="slide.salon_id !== null"
 								:to="{ name: 'Salon', params: { id: slide.salon_id || 0 } }"
-								:style="'background-color:' + slide.button_color"
-								class="block px-3 py-3 w-32 rounded-full text-sm text-white text-center my-1 mx-auto"
+								class="theme-gradient block px-3 py-3 w-32 rounded-full text-sm text-white text-center my-1 mx-auto"
 								>{{ this.$filters.transString(slide.button) }}</router-link
 							>
-							<a
-								v-else
-								href="/categories"
-								:style="'background-color:' + slide.button_color"
-								class="block px-3 py-3 w-32 rounded-full text-sm text-white text-center my-1 mx-auto"
-								>{{ this.$filters.transString(slide.button) }}</a
-							>
+							<a v-else href="/categories" class="theme-gradient block px-3 py-3 w-32 rounded-full text-sm text-white text-center my-1 mx-auto">{{
+								this.$filters.transString(slide.button)
+							}}</a>
 						</div>
-						<div class="absolute inset-0 theme-gradient opacity-50"></div>
 					</div>
 				</slide>
 				<template #addons>

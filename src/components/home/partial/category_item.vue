@@ -12,7 +12,7 @@
 				{{ $filters.stripHtml($filters.transString(category.description)) }}
 			</p>
 		</div>
-		<div class="absolute inset-0 theme-gradient opacity-30 hover:opacity-75 z-0"></div>
+		<div class="absolute inset-0 bg-black bg-opacity-40 opacity-30 hover:opacity-75 z-0"></div>
 	</router-link>
 </template>
 

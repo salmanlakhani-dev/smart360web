@@ -102,11 +102,11 @@
 							px-4
 							py-2
 							text-sm text-white
+							theme-gradient
 							rounded-md
 							border border-transparent
 							shadow-sm
 							md:inline-flex
-							bg-main-color-600
 							hover:bg-main-color-700
 							focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-main-color-500
 						"
@@ -249,6 +249,7 @@
 							class="
 								px-4
 								py-2
+								theme-gradient
 								text-sm text-white
 								rounded-md
 								border border-transparent

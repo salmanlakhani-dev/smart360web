@@ -6,12 +6,7 @@
 				<div class="grid lg:grid-cols-4 grid-cols-1 gap-5 mt-12 xl:mt-0 xl:col-span-2">
 					<div>
 						<div class="flex items-center">
-							<svg xmlns="http://www.w3.org/2000/svg" fill="#fff" class="h-6 w-6 mr-2" viewBox="0 0 448 512">
-								<path
-									d="M64 80c-8.8 0-16 7.2-16 16V416c0 8.8 7.2 16 16 16H384c8.8 0 16-7.2 16-16V96c0-8.8-7.2-16-16-16H64zM0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96zM337 209L209 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L303 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"
-								/>
-							</svg>
-
+							<img class="h-10 w-10 mr-2" src="/images/features.gif" />
 							<h3 class="text-lg font-medium tracking-wider text-white capitalize">Features</h3>
 						</div>
 						<ul class="mt-4 space-y-2">
@@ -38,11 +33,7 @@
 
 					<div>
 						<div class="flex items-center">
-							<svg xmlns="http://www.w3.org/2000/svg" fill="#fff" class="h-6 w-6 mr-2" viewBox="0 0 512 512">
-								<path
-									d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336h24V272H216c-13.3 0-24-10.7-24-24s10.7-24 24-24h48c13.3 0 24 10.7 24 24v88h8c13.3 0 24 10.7 24 24s-10.7 24-24 24H216c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"
-								/>
-							</svg>
+							<img class="h-10 w-10 mr-2" src="/images/contact.gif" />
 							<h3 class="text-lg font-medium tracking-wider text-white capitalize">Help</h3>
 						</div>
 						<ul class="mt-4 space-y-2">
@@ -60,11 +51,7 @@
 					</div>
 					<div>
 						<div class="flex items-center">
-							<svg xmlns="http://www.w3.org/2000/svg" fill="#fff" class="h-6 w-6 mr-2" viewBox="0 0 576 512">
-								<path
-									d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H512c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zm80 256h64c44.2 0 80 35.8 80 80c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16c0-44.2 35.8-80 80-80zm-32-96a64 64 0 1 1 128 0 64 64 0 1 1 -128 0zm256-32H496c8.8 0 16 7.2 16 16s-7.2 16-16 16H368c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 64H496c8.8 0 16 7.2 16 16s-7.2 16-16 16H368c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 64H496c8.8 0 16 7.2 16 16s-7.2 16-16 16H368c-8.8 0-16-7.2-16-16s7.2-16 16-16z"
-								/>
-							</svg>
+							<img class="h-10 w-10 mr-2" src="/images/about.gif" />
 							<h3 class="text-lg font-medium tracking-wider text-white capitalize">About</h3>
 						</div>
 						<ul class="mt-4 space-y-2">
@@ -79,11 +66,7 @@
 					</div>
 					<div>
 						<div class="flex items-center">
-							<svg xmlns="http://www.w3.org/2000/svg" fill="#fff" class="h-6 w-6 mr-2" viewBox="0 0 640 512">
-								<path
-									d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c1.8 0 3.5-.2 5.3-.5c-76.3-55.1-99.8-141-103.1-200.2c-16.1-4.8-33.1-7.3-50.7-7.3H178.3zm308.8-78.3l-120 48C358 277.4 352 286.2 352 296c0 63.3 25.9 168.8 134.8 214.2c5.9 2.5 12.6 2.5 18.5 0C614.1 464.8 640 359.3 640 296c0-9.8-6-18.6-15.1-22.3l-120-48c-5.7-2.3-12.1-2.3-17.8 0zM591.4 312c-3.9 50.7-27.2 116.7-95.4 149.7V273.8L591.4 312z"
-								/>
-							</svg>
+							<img class="h-10 w-10 mr-2" src="/images/legal.gif" />
 							<h3 class="text-lg font-medium tracking-wider text-white capitalize">Legal</h3>
 						</div>
 						<ul class="mt-4 space-y-2">
@@ -92,6 +75,22 @@
 							</li>
 							<li><a href="/help/5" class="text-base text-white hover:text-accent-color-600"> Terms and Conditions </a></li>
 						</ul>
+						<div class="flex row gap-3 mt-6">
+							<a href="">
+								<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 fill-current text-white" viewBox="0 0 320 512">
+									<path
+										d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z"
+									/>
+								</svg>
+							</a>
+							<a href="">
+								<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 fill-current text-white" viewBox="0 0 448 512">
+									<path
+										d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+									/>
+								</svg>
+							</a>
+						</div>
 					</div>
 					<!-- <div class="mt-12 md:mt-0">
 						<h3 class="text-lg font-medium tracking-wider text-white capitalize">
@@ -130,8 +129,8 @@
 						Empower Your Business with Seamless Online Bookings and Secure Payments. Let Smart360CRM Take the Reins, Allowing You to Thrive in Your Passion.
 					</h3>
 					<div class="flex gap-2 items-center justify-center">
-						<a href="/help/5"><img class="w-48" src="/images/download-app.png" /></a>
-						<a href="/help/5"><img class="w-48" src="/images/download-play.png" /></a>
+						<a href="https://play.google.com/store/apps/details?id=com.dip.smartcrm"><img class="w-40" src="/images/download-app.png" /></a>
+						<a href="https://apps.apple.com/us/app/smart360-crm/id6470704454"><img class="w-40" src="/images/download-play.png" /></a>
 					</div>
 				</div>
 				<p class="text-base mt-5 text-white xl:text-center">

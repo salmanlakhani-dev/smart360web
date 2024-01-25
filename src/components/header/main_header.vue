@@ -22,8 +22,8 @@
 						</DisclosureButton>
 					</div>
 					<router-link as="div" class="flex flex-shrink-0 items-center cursor-pointer" to="/">
-						<img :alt="this.$settings['app_name']" :src="this.$settings['app_logo']" class="block w-auto h-12 lg:hidden" />
-						<img :alt="this.$settings['app_name']" :src="this.$settings['app_logo']" class="hidden w-auto h-12 lg:block" />
+						<img :alt="this.$settings['app_name']" src="/images/logo.gif" class="block w-auto h-12 lg:hidden" />
+						<img :alt="this.$settings['app_name']" src="/images/logo.gif" class="hidden w-auto h-12 lg:block" />
 						<!-- <span class='mx-3 font-bold text-second-color-600'>{{ this.$settings['app_name'] }}</span> -->
 					</router-link>
 					<div class="hidden md:ml-6 md:flex md:space-x-6 rtl:space-x-reverse">

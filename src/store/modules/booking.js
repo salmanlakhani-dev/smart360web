@@ -119,12 +119,42 @@ export default {
 				offset: ((state.page - 1) * 4).toString(),
 			}
 			this.$axios.get('bookings', { params: queryParameters }).then((response) => {
-				console.log(response.data.data)
+				// console.log(response.data.data)
+				function padZero(number) {
+					return number < 10 ? '0' + number : number
+				}
 				if (response.status === 200 && response.data?.success) {
-					const bookings = response.data.data.map(function (element) {
+					let bookings = response.data.data.map(function (element) {
 						element.e_service = swipePrices(element.e_service)
 						return element
 					})
+					// console.log('before bookings', bookings)
+					bookings = bookings.map((booking) => {
+						const date = new Date(booking.booking_at)
+
+						// Adjust the date to UTC+5 timezone
+						date.setHours(date.getHours() + 5)
+
+						// Modify each booking item to the desired format
+						const formattedDate = `${date.getFullYear()}-${padZero(date.getMonth() + 1)}-${padZero(date.getDate())} ${padZero(date.getHours())}:${padZero(
+							date.getMinutes()
+						)}`
+
+						return {
+							title: booking.e_services[0].name.en, // Assuming there's only one service in e_services array
+							with: booking.salon.name.en, // You may need to fetch employee info if available
+							time: {
+								start: formattedDate,
+								end: formattedDate, // Assuming 'ends_at' is available, otherwise set to null
+							},
+							color: 'yellow', // Set color based on your requirements
+							id: booking.id,
+							isCustom: true,
+							...booking,
+						}
+					})
+
+					console.log('after bookings', bookings)
 					commit('PUSH_BOOKINGS', bookings)
 				}
 			})

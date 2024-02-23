@@ -26,7 +26,7 @@
 		/>
 		<router-link
 			:to="{ name: 'Search', params: { keywords: keywords } }"
-			class="theme-gradient px-6 py-4 w-32 text-sm text-center text-white rounded-full w-42 bg-main-color-600"
+			class="px-6 py-4 w-32 custom-bg-color text-sm text-center text-white rounded-full w-42 bg-main-color-600"
 		>
 			{{ $t('Search') }}
 		</router-link>

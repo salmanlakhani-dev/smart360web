@@ -25,6 +25,8 @@ module.exports = {
 				},
 				'text-charcoal': 'rgb(51 51 51/1)',
 				'text-inkDarker': 'rgb(51 51 51/1)',
+				'text-custom': '#710193',
+				'text-custom-light': '#b026ff',
 				'accent-color': {
 					50: 'var(--accent-color-50)',
 					100: 'var(--accent-color-100)',

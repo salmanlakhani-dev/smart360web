@@ -30,7 +30,8 @@
 							<a
 								v-else
 								href="/categories"
-								class="bg-white text-[#b026ff] uppercase block px-3 py-3 w-32 rounded-full text-sm text-white text-center my-1 mx-auto"
+								style="color: #b026ff"
+								class="bg-white uppercase block px-3 font-semibold py-3 w-32 rounded-full text-sm text-white text-center my-1 mx-auto"
 								>{{ this.$filters.transString(slide.button) }}</a
 							>
 						</div>

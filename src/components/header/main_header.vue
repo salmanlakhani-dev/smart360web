@@ -102,7 +102,7 @@
 							px-4
 							py-2
 							text-sm text-white
-							theme-gradient
+							custom-bg-color-light
 							rounded-md
 							border border-transparent
 							shadow-sm
@@ -249,7 +249,7 @@
 							class="
 								px-4
 								py-2
-								theme-gradient
+								custom-bg-color-light
 								text-sm text-white
 								rounded-md
 								border border-transparent

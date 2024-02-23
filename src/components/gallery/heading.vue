@@ -1,5 +1,5 @@
 <template>
-	<div class="p-5 max-w-5xl">
+	<div class="p-5 text-center align-middle self-center flex flex-col justify-center">
 		<h2 class="text-2xl leading-5 font-bold text-second-color-600 sm:text-3xl md:text-4xl">
 			{{ heading }}
 		</h2>

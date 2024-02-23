@@ -11,7 +11,7 @@
 				<router-link
 					:to="{ name: 'Categories' }"
 					class="
-						theme-gradient
+						custom-bg-color
 						inline-flex
 						items-center
 						px-4

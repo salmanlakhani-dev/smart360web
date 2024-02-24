@@ -46,17 +46,15 @@ export default {
 			events: [
 				// ...
 				{
-					title: 'Advanced algebra',
-					with: 'Chandler Bing',
+					title: 'Web Design Service',
+					with: 'Sahil DIP',
 					time: { start: '2024-02-24 12:05', end: '2024-02-24 13:35' },
 					color: 'yellow',
 					id: '753944708f0f',
-					description:
-						'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores assumenda corporis doloremque et expedita molestias necessitatibus quam quas temporibus veritatis. Deserunt excepturi illum nobis perferendis praesentium repudiandae saepe sapiente voluptatem!',
 				},
 				{
-					title: 'Ralph on holiday',
-					with: 'Rachel Greene',
+					title: 'Spa Services',
+					with: 'Curved By Daisy',
 					time: { start: '2024-02-26', end: '2024-02-26' },
 					color: 'green',
 					id: '5602b6f589fc',

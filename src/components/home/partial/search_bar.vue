@@ -15,6 +15,7 @@
 			sm:mx-auto sm:w-3/4
 			md:w-1/2
 			lg:w-1/3
+			border-main-color-600 border-2
 		"
 	>
 		<input

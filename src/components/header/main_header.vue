@@ -30,7 +30,7 @@
 						<router-link
 							:class="{
 								'border-main-color-500 text-main-color-600 font-bold': $router.currentRoute.value.name === 'Home',
-								'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700': $router.currentRoute.value.name !== 'Home',
+								'border-transparent text-main-color-600 hover:border-gray-300 hover:text-gray-700': $router.currentRoute.value.name !== 'Home',
 							}"
 							class="inline-flex items-center px-1 pt-1 text-sm font-medium border-b-2"
 							to="/"
@@ -41,7 +41,7 @@
 						<a
 							:class="{
 								'border-main-color-500 text-main-color-600 font-bold': $router.currentRoute.value.name === 'Pro',
-								'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700': $router.currentRoute.value.name !== 'Pro',
+								'border-transparent text-main-color-600 hover:border-gray-300 hover:text-gray-700': $router.currentRoute.value.name !== 'Pro',
 							}"
 							class="inline-flex items-center px-1 pt-1 text-sm font-medium border-b-2"
 							href="https://smart360crm.com/proapp/"
@@ -51,7 +51,7 @@
 						<router-link
 							:class="{
 								'border-main-color-500 text-main-color-600 font-bold': $router.currentRoute.value.name === 'Deals',
-								'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700': $router.currentRoute.value.name !== 'Deals',
+								'border-transparent text-main-color-600 hover:border-gray-300 hover:text-gray-700': $router.currentRoute.value.name !== 'Deals',
 							}"
 							class="inline-flex items-center px-1 pt-1 text-sm font-medium border-b-2"
 							:to="{ name: 'Deals' }"
@@ -61,7 +61,7 @@
 						<router-link
 							:class="{
 								'border-main-color-500 text-main-color-600 font-bold': $router.currentRoute.value.name === 'Professionals',
-								'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700': $router.currentRoute.value.name !== 'Professionals',
+								'border-transparent text-main-color-600 hover:border-gray-300 hover:text-gray-700': $router.currentRoute.value.name !== 'Professionals',
 							}"
 							class="inline-flex items-center px-1 pt-1 text-sm font-medium border-b-2"
 							:to="{ name: 'Professionals' }"
@@ -71,7 +71,7 @@
 						<router-link
 							:class="{
 								'border-main-color-500 text-main-color-600 font-bold': $router.currentRoute.value.name === 'Gallery',
-								'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700': $router.currentRoute.value.name !== 'Gallery',
+								'border-transparent text-main-color-600 hover:border-gray-300 hover:text-gray-700': $router.currentRoute.value.name !== 'Gallery',
 							}"
 							class="inline-flex items-center px-1 pt-1 text-sm font-medium border-b-2"
 							:to="{ name: 'Gallery' }"

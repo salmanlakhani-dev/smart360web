@@ -1,7 +1,7 @@
 <template>
 	<div class="px-4 py-20 bg-gray-100 sm:px-0">
 		<CategoriesLoader v-if="allCategoriesWithSubcategories.length === 0" />
-		<div v-else class="grid overflow-hidden gap-4 mx-auto max-w-7xl sm:px-6 lg:px-8 sm:grid-cols-2 md:grid-cols-3 sm:gap-8">
+		<div v-else class="grid overflow-hidden gap-4 mx-auto sm:px-6 lg:px-8 sm:grid-cols-2 md:grid-cols-3 sm:gap-8">
 			<router-link
 				v-for="category in allCategoriesWithSubcategories"
 				:key="category.id"

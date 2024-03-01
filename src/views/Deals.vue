@@ -7,7 +7,7 @@
 				"
 			/>
 			<div class="bg-white">
-				<div class="my-2 max-w-3xl mx-auto grid grid-cols-1 gap-10 px-6 lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-4">
+				<div class="my-2 max-w-3xl mx-auto grid grid-cols-1 gap-10 px-6 lg:lg:grid-flow-col-dense lg:grid-cols-4">
 					<div class="lg:col-span-4">
 						<EServicesGrid :eServices="eServicesOfCategory" />
 						<div v-if="eServicesOfCategory.length > 0" class="flex w-full py-12">

@@ -4,7 +4,7 @@
 		:style="{ backgroundImage: `url(${$filters.getFirstMediaUrl(category)})` }"
 		class="relative group bg-white rounded-lg hover:shadow-lg overflow-hidden bg-cover bg-center"
 	>
-		<div class="py-10 px-6 h-full flex align-middle justify-center flex-col z-20">
+		<div class="py-10 px-6 h-48 flex align-middle justify-center flex-col z-20">
 			<h3 class="text-2xl text-center text-white font-bold z-10 pointer-events-none">
 				{{ $filters.transString(category.name) }}
 			</h3>

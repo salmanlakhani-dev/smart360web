@@ -1,5 +1,5 @@
 <template>
-	<div class="max-w-7xl mx-auto space-y-8">
+	<div class="mx-auto space-y-8">
 		<BookingsLoader v-if="bookings.length === 0" />
 		<div class="calendar-container is-light-mode">
 			<Qalendar :config="config" :events="events" />
@@ -103,4 +103,7 @@ export default {
 </script>
 <style>
 @import 'qalendar/dist/style.css';
+.calendar-month__weekday {
+	height: 100px !important;
+}
 </style>

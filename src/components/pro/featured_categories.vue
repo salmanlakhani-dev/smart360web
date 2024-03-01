@@ -1,6 +1,6 @@
 <template>
 	<div class="py-10 bg-accent-color-50">
-		<div class="flex justify-between items-center px-4 py-10 mx-auto max-w-7xl sm:px-6 lg:px-8">
+		<div class="flex justify-between items-center px-4 py-10 mx-auto sm:px-6 lg:px-8">
 			<div class="flex-1 min-w-0">
 				<h2 class="py-3 text-xl font-bold lg:text-2xl text-second-color-600">Optimize Your Operations with the Power of Smart360CRM</h2>
 				<p class="text-sm sm:text-base text-second-color-400 sm:truncate">Smart360CRM is a full business solution for a wide range of business types.</p>
@@ -31,7 +31,7 @@
 			</div>
 		</div>
 
-		<div class="grid overflow-hidden grid-cols-2 gap-4 px-4 mx-auto max-w-7xl sm:py-6 sm:px-6 lg:px-8 sm:grid-cols-3 lg:grid-cols-4 sm:gap-8">
+		<div class="grid overflow-hidden grid-cols-2 gap-4 px-4 mx-auto sm:py-6 sm:px-6 lg:px-8 sm:grid-cols-3 lg:grid-cols-4 sm:gap-8">
 			<CategoryItem v-for="category in featuredCategories" :key="category.id" :category="category" />
 		</div>
 	</div>

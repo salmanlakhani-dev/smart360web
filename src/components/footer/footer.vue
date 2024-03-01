@@ -1,7 +1,7 @@
 <template>
 	<footer aria-labelledby="footer-heading" class="theme-gradient">
 		<h2 id="footer-heading" class="sr-only">Footer</h2>
-		<div class="px-4 py-12 pb-2 lg:pb-3 mx-auto max-w-7xl sm:px-6 lg:py-16 lg:px-8">
+		<div class="px-4 py-12 pb-2 lg:pb-3 mx-auto sm:px-6 lg:py-16 lg:px-8">
 			<div class="xl:grid xl:grid-cols-1 xl:gap-8">
 				<div class="grid lg:grid-cols-4 grid-cols-1 gap-5 mt-12 xl:mt-0 xl:col-span-2">
 					<div>

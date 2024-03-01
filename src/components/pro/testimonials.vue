@@ -8,7 +8,7 @@
 					<div class="px-4">
 						<div class="max-w-6xl pt-16 lg:pt-20 lg:pb-12">
 							<div class="relative rounded-2xl bg-main-color-600 pt-6 pb-16 lg:relative lg:z-10 lg:pb-0 lg:pt-0">
-								<div class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-3 lg:gap-8 lg:px-8">
+								<div class="lg:mx-auto lg:grid lg:lg:grid-cols-3 lg:gap-8 lg:px-8">
 									<div class="relative lg:-my-8">
 										<div aria-hidden="true" class="absolute inset-x-0 top-0 h-1/2 lg:hidden"></div>
 										<div class="mx-auto max-w-md px-6 sm:max-w-3xl lg:h-full lg:p-0">
@@ -56,7 +56,7 @@
 					<div class="px-4">
 						<div class="max-w-6xl pt-16 lg:pt-20 lg:pb-12">
 							<div class="relative rounded-2xl bg-main-color-600 pt-6 pb-16 lg:relative lg:z-10 lg:pb-0 lg:pt-0">
-								<div class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-3 lg:gap-8 lg:px-8">
+								<div class="lg:mx-auto lg:grid lg:lg:grid-cols-3 lg:gap-8 lg:px-8">
 									<div class="relative lg:-my-8">
 										<div aria-hidden="true" class="absolute inset-x-0 top-0 h-1/2 lg:hidden"></div>
 										<div class="mx-auto max-w-md px-6 sm:max-w-3xl lg:h-full lg:p-0">
@@ -104,7 +104,7 @@
 					<div class="px-4">
 						<div class="max-w-6xl pt-16 lg:pt-20 lg:pb-12">
 							<div class="relative rounded-2xl bg-main-color-600 pt-6 pb-16 lg:relative lg:z-10 lg:pb-0 lg:pt-0">
-								<div class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-3 lg:gap-8 lg:px-8">
+								<div class="lg:mx-auto lg:grid lg:lg:grid-cols-3 lg:gap-8 lg:px-8">
 									<div class="relative lg:-my-8">
 										<div aria-hidden="true" class="absolute inset-x-0 top-0 h-1/2 lg:hidden"></div>
 										<div class="mx-auto max-w-md px-6 sm:max-w-3xl lg:h-full lg:p-0">

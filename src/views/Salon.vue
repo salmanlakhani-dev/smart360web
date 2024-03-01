@@ -1,19 +1,19 @@
 <template>
-	<Heading :salon='salon' />
+	<Heading :salon="salon" />
 	<Tabs />
-	<div class='grid grid-cols-1 gap-4 items-start mx-auto my-8 max-w-7xl sm:px-6 lg:px-8 lg:grid-cols-3 lg:gap-8'>
-		<div class='grid grid-cols-1 gap-8 lg:col-span-2'>
-			<Description v-if='$route.params.tab === "details"' :salon='salon' />
-			<FeaturedServices v-if='$route.params.tab === "details"' />
-			<Services v-if='$route.params.tab === "services"' />
-			<Galleries v-if='$route.params.tab === "gallery"' />
-			<Reviews v-if='$route.params.tab === "reviews"' />
-			<Awards v-if='$route.params.tab === "awards"' />
-			<Experiences v-if='$route.params.tab === "experiences"' />
+	<div class="grid grid-cols-1 gap-4 items-start mx-auto my-8 sm:px-6 lg:px-8 lg:grid-cols-3 lg:gap-8">
+		<div class="grid grid-cols-1 gap-8 lg:col-span-2">
+			<Description v-if="$route.params.tab === 'details'" :salon="salon" />
+			<FeaturedServices v-if="$route.params.tab === 'details'" />
+			<Services v-if="$route.params.tab === 'services'" />
+			<Galleries v-if="$route.params.tab === 'gallery'" />
+			<Reviews v-if="$route.params.tab === 'reviews'" />
+			<Awards v-if="$route.params.tab === 'awards'" />
+			<Experiences v-if="$route.params.tab === 'experiences'" />
 		</div>
-		<div class='grid grid-cols-1 gap-8'>
-			<Contact :salon='salon' />
-			<Availability :salon='salon' />
+		<div class="grid grid-cols-1 gap-8">
+			<Contact :salon="salon" />
+			<Availability :salon="salon" />
 		</div>
 	</div>
 	<BookingBanner />
@@ -21,7 +21,6 @@
 </template>
 
 <script>
-
 import Heading from '../components/salon/heading.vue'
 import Description from '../components/salon/description.vue'
 import Galleries from '../components/salon/galleries.vue'

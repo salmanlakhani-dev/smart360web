@@ -1,6 +1,6 @@
 <template>
 	<Disclosure v-slot="{ open }" as="nav" class="sticky top-0 z-40 bg-white">
-		<div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+		<div class="px-4 mx-auto sm:px-6 lg:px-8">
 			<div class="flex justify-between h-16">
 				<div class="flex">
 					<div class="flex items-center mr-2 -ml-2 md:hidden">

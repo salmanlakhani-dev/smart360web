@@ -3,7 +3,7 @@
 		<div class="absolute inset-x-0 bottom-0 h-1/2 bg-accent-color-50"></div>
 		<SliderBackground />
 		<Loader v-if="slides.length === 0" height="h-48 sm:h-96" />
-		<div v-else class="mx-auto max-w-7xl h-48 sm:h-96 sm:px-6 lg:px-8">
+		<div v-else class="mx-auto h-48 sm:h-96 sm:px-6 lg:px-8">
 			<carousel dir="ltr" :autoplay="5000" :items-to-show="1" :wrap-around="true">
 				<slide v-for="slide in slides" :key="slide" class="relative w-full shadow-xl sm:overflow-hidden">
 					<div class="absolute inset-0">

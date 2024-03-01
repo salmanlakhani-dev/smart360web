@@ -10,7 +10,7 @@
 		<div class="mt-10 pb-12 sm:pb-16">
 			<div class="relative">
 				<div class="absolute inset-0 h-1/2"></div>
-				<div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+				<div class="relative mx-auto px-4 sm:px-6 lg:px-8">
 					<div class="mx-auto my-8 max-w-5xl">
 						<dl class="rounded-lg pt-4 sm:grid-cols-3 md:grid">
 							<div class="flex flex-col border-b border-gray-100 p-4 text-left sm:border-0 sm:border-r">

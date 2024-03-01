@@ -1,6 +1,6 @@
 <template>
 	<section class="bg-white px-1 py-12 sm:py-16 lg:py-20 xl:py-32">
-		<div class="mx-auto flex max-w-7xl flex-col justify-center gap-10 px-4 md:flex-row">
+		<div class="mx-auto flex flex-col justify-center gap-10 px-4 md:flex-row">
 			<div class="justify-left flex flex-col justify-around gap-8 py-20 md:w-6/12 lg:order-2 lg:w-5/12">
 				<div class="max-w-sm">
 					<h2 class="text-center text-4xl font-semibold tracking-tight text-gray-900 sm:text-4xl md:tracking-normal xl:text-4xl">S360CRM Payments</h2>

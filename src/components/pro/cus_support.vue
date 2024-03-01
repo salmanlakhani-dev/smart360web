@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<div class="bg-main-color-100 pt-12 sm:pt-16">
-			<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+			<div class="mx-auto px-4 sm:px-6 lg:px-8">
 				<div class="mx-auto max-w-4xl pt-8 text-center">
 					<h2 class="text-3xl font-semibold tracking-normal text-gray-900 sm:text-3xl">Your Support, Around the Clock</h2>
 					<p class="mt-3 text-lg text-gray-500 sm:mt-4">Count on Smart360CRM's Dedicated Customer Support Team, Available 24/7, for Your Assistance.</p>

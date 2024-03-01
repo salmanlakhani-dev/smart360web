@@ -1,6 +1,6 @@
 <template>
 	<div class="relative pb-32 bg-accent-color-50">
-		<div class="flex justify-between items-center px-4 pt-6 pb-16 mx-auto max-w-7xl sm:px-6 lg:px-8">
+		<div class="flex justify-between items-center px-4 pt-6 pb-16 mx-auto sm:px-6 lg:px-8">
 			<div class="flex-1 min-w-0">
 				<h2 class="py-3 text-xl font-bold lg:text-4xl text-second-color-600">{{ $t('Recommended Salons') }}</h2>
 				<p class="text-sm sm:text-base text-second-color-400 sm:truncate">
@@ -35,7 +35,7 @@
 		</div>
 	</div>
 
-	<section aria-labelledby="contact-heading" class="relative z-10 px-4 pb-32 mx-auto -mt-40 max-w-7xl sm:px-6 lg:px-8">
+	<section aria-labelledby="contact-heading" class="relative z-10 px-4 pb-32 mx-auto -mt-40 sm:px-6 lg:px-8">
 		<div class="grid grid-cols-1 gap-y-20 lg:grid-cols-3 lg:gap-y-12 lg:gap-x-8">
 			<SalonItem v-for="salon in recommendedSalons" :key="salon.id" :salon="salon" />
 		</div>
